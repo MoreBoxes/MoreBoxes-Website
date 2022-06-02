@@ -1,0 +1,132 @@
+// hero
+.t-hero-title {
+  font-size: 73px;
+  font-weight: 700;
+  color: $c-text;
+  line-height: 88px;
+  letter-spacing: -0.02em;
+}
+.t-hero-subtitle {
+  font-size: 44px;
+  font-weight: 500;
+  color: $c-text;
+  line-height: 53px;
+  letter-spacing: -0.0275em;
+}
+.t-hero-title + .t-hero-subtitle {margin-top: 12px;}
+
+.t-hero-description {
+  font-size: 23px;
+  font-weight: 400;
+  color: $c-text--secondary;
+  line-height: 35px;
+  letter-spacing: 0.004em;
+}
+.t-hero-subtitle + .t-hero-description {margin-top: 27px;}
+
+@media only screen and (max-width: 767px) {
+  .t-hero-title {
+    font-size: 53px;
+    line-height: 63px;
+  }
+  .t-hero-subtitle {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .t-hero-title + .t-hero-subtitle {margin-top: 9px;}
+  .t-hero-subtitle + .t-hero-description {margin-top: 20px;}
+}
+@media only screen and (max-width: 374px) {
+  .t-hero-title {font-size: 48px;}
+}
+
+// level 2
+.t-level-2_name {
+  font-size: 21px;
+  font-weight: 700;
+  color: $c-text;
+  line-height: 27px;
+  letter-spacing: 0.00125em;
+}
+.t-level-2_title {
+  font-size: 49px;
+  font-weight: 700;
+  color: $c-text;
+  line-height: 59px;
+  letter-spacing: -0.016em;
+}
+.t-level-2_name + .t-level-2_title {margin-top: 17px;}
+
+.t-level-2_title-s {
+  font-size: 21px;
+  font-weight: 700;
+  color: $c-text;
+  line-height: 27px;
+  letter-spacing: 0.00125em;
+}
+.t-level-2_description + .t-level-2_title-s {margin-top: 64px;}
+
+.t-level-2_description {
+  font-size: 20px;
+  font-weight: 400;
+  color: $c-text--secondary;
+  line-height: 32px;
+  letter-spacing: 0.002em;
+}
+.t-level-2_title + .t-level-2_description {margin-top: 22px;}
+.t-level-2_title-s + .t-level-2_description {margin-top: 5px;}
+
+@media only screen and (max-width: 767px) {
+  .t-level-2_name {
+    font-size: 21px;
+    line-height: 27px;
+  }
+  .t-level-2_title {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  .t-level-2_name + .t-level-2_title {margin-top: 12px;}
+}
+
+// level 3
+.t-level-3_title {
+  font-size: 32px;
+  font-weight: 700;
+  color: $c-text;
+  line-height: 38px;
+}
+
+.t-level-3_title-s {
+  font-size: 18px;
+  font-weight: 700;
+  color: $c-text;
+  line-height: 24px;
+  letter-spacing: 0.004em;
+}
+.t-level-3_description + .t-level-3_title-s {margin-top: 45px;}
+
+.t-level-3_description {
+  font-size: 17px;
+  font-weight: 400;
+  color: $c-text--secondary;
+  line-height: 27px;
+  letter-spacing: 0.004em;
+}
+.t-level-3_title + .t-level-3_description {margin-top: 14px;}
+.t-level-3_title-s + .t-level-3_description {margin-top: 5px;}
+
+// level 4
+.t-level-4_title {
+  font-size: 14px;
+  font-weight: 700;
+  color: $c-text;
+  line-height: 18px;
+}
+
+.t-level-4_description {
+  font-size: 14px;
+  font-weight: 400;
+  color: $c-text--secondary;
+  line-height: 21px;
+}
+.t-level-4_title + .t-level-4_description {margin-top: 5px;}
